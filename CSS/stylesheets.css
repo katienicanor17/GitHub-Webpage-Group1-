@@ -1,25 +1,56 @@
 html {
     width: 100%;
     background-color: #000;
-    background-image: url("../images/")
+    background-image: url("../images/marvelLogo.jfif")
 }
 
 body {
     width: 80%;
     /* body element is 80% size of the whole html element */
     background-color: #fff;
-    height: 500px;
+    height: auto;
     margin: 0 auto;
     /* center the body of the element */
+    padding-bottom: 20px;
 }
 
 header {
     width: 100%;
     height: 100px;
-    background-color: #a4a2f2;
+    color: white;
+    background-color: black;
 }
 
 header h1 {
     margin: 0 auto;
     padding-top: 25px;
+    text-align: center;
+}
+
+section {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+section h2, h3 {
+    text-align: center;
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #103ced;
+}
+
+.villain {
+    background-color: #e0180d;
+}
+
+.neutral {
+    background-color: #635756;
 }
