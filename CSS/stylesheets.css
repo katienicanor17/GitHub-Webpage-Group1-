@@ -1,28 +1,24 @@
 html {
     width: 100%;
     background-color: #000;
-    background-image: url("../images/original.jpg");
+    background-image: url("../images/endgame.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     
-
-
 }
 
 body {
     width: 80%;
     /* body element is 80% size of the whole html element */
-    background-color: rgba(100, 100, 100, 0.9);
+    background-color: rgba(100, 100, 100, 0.7);
     height: auto;
     margin:auto;
     /* center the body of the element */
     border-radius: 15px;
     padding: 1rem;
     margin-bottom: 1rem;
-    margin-top: 3rem;
-
-    
+    margin-top: 3rem;    
 }
 
 img{
@@ -61,10 +57,12 @@ section {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    
 }
 
-section h2, h3 {
+section h2,h3 {
     text-align: center;
+
 }
 
 div {
@@ -73,13 +71,16 @@ div {
 }
 
 .hero {
-    background-color: #103ced;
+    background-color: #283e923f;
+    
 }
 
 .villain {
-    background-color: #e0180d;
+    background-color: rgba(163, 16, 16, 0.274);
+    
 }
 
 .neutral {
     background-color: #635756;
+    
 }
