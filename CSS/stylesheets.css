@@ -55,9 +55,13 @@ header h1 {
 section {
     /* background-color: red; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 20px;
     
+}
+
+.hero, .villain {
+    display: inline;
 }
 
 section h2,h3 {
@@ -72,15 +76,16 @@ div {
 
 .hero {
     background-color: #283e923f;
+    width: 200px;
     
 }
 
 .villain {
     background-color: rgba(163, 16, 16, 0.274);
-    
+    width: 20%;
 }
 
 .neutral {
     background-color: #635756;
-    
+    width: 80%;
 }
