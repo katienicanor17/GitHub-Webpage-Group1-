@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 80%;
+    width: 90%;
     /* body element is 80% size of the whole html element */
     background-color: rgba(100, 100, 100, 0.7);
     height: auto;
@@ -24,6 +24,11 @@ body {
 img{
     display: block;
     margin: auto;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 header {
@@ -72,16 +77,16 @@ div {
 
 .hero {
     background-color: #283e923f;
-    width: 700px;
+    width: 33%;
     
 }
 
 .villain {
     background-color: rgba(163, 16, 16, 0.274);
-    width: 700px;
+    width: 33%;
 }
 
 .neutral {
     background-color: #635756;
-    width: 700px;
+    width: 33%;
 }
